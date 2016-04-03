@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<script
-src="http://maps.googleapis.com/maps/api/js">
-</script>
-
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(-7.611086, 111.906329),
-    zoom:30,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,11 +19,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	</style>
   </head>
   <body>
-
+	<div class="header">
+    	<img alt="Bootstrap Image Preview" src="./images/15-WEB.jpg" class="img-default" width="1345px" height="300px">
+        <img src="./images/IMG_5183.JPG" class="img-circle" alt="Smiley face" style=";width:150px;height:150px;">
+        </div>
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<img alt="Bootstrap Image Preview" src="./images/panorama-Raja-Ampat1.jpg" class="img-default" width="1312px" height="200px">
+			
 			<ul class="nav nav-tabs">
 				<li>
 					<a href="index.html">Home</a>
@@ -54,39 +42,25 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				</li>
                 </ul>
 			<div class="row">
-				<div class="col-md-8">
-					<h3 style="color:white">
+				<div class="col-md-12">
+					<h2 style="color:black" >
 						Kontak
-					</h3>
-                    <p style="color:black; font-size:20px">Alamat    : Jalan Imam Bonjol 39, Payaman, Nganjuk, Jawa Timur, Indonesia, 
+					</h2><br><br>
+                    <p style="color:cyan; font-size:20px; text-align:center">Alamat    : Jalan Imam Bonjol 39, Payaman, Nganjuk, Jawa Timur, Indonesia, 
                     64418</p>
-                    <p style="color:black; font-size:20px">Facebook  : Ekky Kurniawan<a href="https://www.facebook.com/ekky.kurniawanakbar">(ekky.kurniawanakbar)</a></p>
-                  <p style="color:black; font-size:20px">Twitter     : Ekky Kurniawan<a href="https://twitter.com/ekky_jr">(@ekky_jr)</a></p>
-                    <p style="color:black; font-size:20px">Instagram : Ekky Kurniawan<a href="https://www.instagram.com/ekky_kurniawan/">(ekky_kurniawan)</a></p>
-                    <p style="color:black; font-size:20px">IDLine    : ekkykurniawan22</p>
-                    <p style="color:black; font-size:20px">No. Telepon    : 082244571116</p><br>
-				</div>
-				<div class="col-md-4">
-                <h3 style="color:white">Serve
-                </h3>
-					<div id="googleMap" style="width:350px;height:450px;"></div>
-
-				</div>
-			</div>
+                    <p style="color:cyan; font-size:20px; text-align:center">IDLine    : ekkykurniawan22</p>
+                    <p style="color:cyan; font-size:20px; text-align:center">No. Telepon    : 082244571116</p><br>
+                    <p style="color:cyan; font-size:20px; text-align:center">Find me on: </p>
+                    <p style="text-align:center">
+                    <a href="https://www.facebook.com/ekky.kurniawanakbar"><img alt="Bootstrap Image Preview" src="./images/incon-fb.png" class="img-default" width="40px" height="40px"></a>
+                    <a href="https://twitter.com/ekky_jr"><img alt="Bootstrap Image Preview" src="./images/icon128-2x.png" class="img-default" width="40px" height="40px"></a>
+                    <a href="https://www.instagram.com/ekky_kurniawan/"><img alt="Bootstrap Image Preview" src="./images/InstagramTransparent@512.png" class="img-default" width="40px" height="40px"></a>
+                    <a href="https://plus.google.com/u/0/107360439058198606899"><img alt="Bootstrap Image Preview" src="./images/googleplus.png" class="img-default" width="40px" height="40px"></a></p><br><br>
+        			</div>
+        		</div>
+        	</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<h2 style="color:white">
-				Profilku
-			</h2>
-			<p style="color:white">Ini adalah profilku, namaku Ekky Kurniawan Akbar. Nama panggilan Ekky. Lahir 22 Januari 1997, aku adalah kakak tertua dari 3 bersaudara. Aku mulai masuk TK umur 5 tahun,...
-			<p>
-			<p>
-				<a class="btn" href="profil.html">Lihat Selengkapnya »</a>
-			</p>
-		</div>
-	</div>
+    </div>
 </div>
 
     <script src="js/jquery.min.js"></script>
